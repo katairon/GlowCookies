@@ -2,7 +2,7 @@
     GLOW COOKIES
     CREATED BY MANUEL CARRILLO
     https://github.com/manucaralmo/GlowCookies
-    2021 - v 3.1
+    2021 - v 3.1.1
 */
 
 class GlowCookies {
@@ -27,7 +27,7 @@ class GlowCookies {
     addCss() {
         const stylesheet = document.createElement('link');
         stylesheet.setAttribute('rel', 'stylesheet');
-        stylesheet.setAttribute('href', `https://cdn.jsdelivr.net/gh/manucaralmo/GlowCookies@3.1/src/glowCookies.min.css`);
+        stylesheet.setAttribute('href', `https://cdn.jsdelivr.net/gh/manucaralmo/GlowCookies@3.1.1/src/glowCookies.min.css`);
         document.head.appendChild(stylesheet);
     }
 
@@ -318,6 +318,14 @@ class LanguagesGC {
                 'rejectBtnText': 'Ablehnen',
                 'manageText': 'Cookies verwalten'
             },
+            fr: {
+                'bannerHeading': 'Nous utilisons des cookies',
+                'bannerDescription': 'Nous utilisons nos propres cookies et ceux de tiers pour adapter le contenu et analyser le trafic web.',
+                'bannerLinkText': 'En savoir plus sur les cookies',
+                'acceptBtnText': 'Accepter les cookies',
+                'rejectBtnText': 'Refuser',
+                'manageText': 'Paramétrez les cookies'
+            },
             th: {
                 'bannerHeading': 'Cookies',
                 'bannerDescription': 'พวกเราใช้คุกกี้บุคคลที่สาม เพื่อปรับแต่งเนื้อหาและวิเคราะห์การเข้าชมเว็บ',
@@ -325,6 +333,14 @@ class LanguagesGC {
                 'acceptBtnText': 'ยอมรับคุกกี้',
                 'rejectBtnText': 'ปฏิเสธคุกกี้',
                 'manageText': 'Cookies'
+            },
+            sk: {
+                'bannerHeading': 'Používame cookies',
+                'bannerDescription' : 'Na prispôsobenie obsahu a analýzu webovej stránky používame vlastné cookies a cookies tretích strán.',
+                'bannerLinkText' : 'Čo sú cookies?',
+                'acceptBtnText' : 'Povoliť cookies',
+                'rejectBtnText' : 'Nepovoliť',
+                'manageText' : 'Spravovať cookies'
             }
         }
     }
